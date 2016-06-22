@@ -13,6 +13,7 @@
 		4332E8BE1D1988D30008DFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4332E8BC1D1988D30008DFFD /* Main.storyboard */; };
 		4332E8C01D1988D30008DFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4332E8BF1D1988D30008DFFD /* Assets.xcassets */; };
 		4332E8C31D1988D30008DFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4332E8C11D1988D30008DFFD /* LaunchScreen.storyboard */; };
+		4332E8D21D198A190008DFFD /* CustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E8D11D198A190008DFFD /* CustomerTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4332E8BF1D1988D30008DFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4332E8C21D1988D30008DFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4332E8C41D1988D30008DFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4332E8D01D198A190008DFFD /* CustomerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewController.h; sourceTree = "<group>"; };
+		4332E8D11D198A190008DFFD /* CustomerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				4332E8B61D1988D30008DFFD /* AppDelegate.h */,
 				4332E8B71D1988D30008DFFD /* AppDelegate.m */,
 				4332E8B91D1988D30008DFFD /* ViewController.h */,
+				4332E8D01D198A190008DFFD /* CustomerTableViewController.h */,
+				4332E8D11D198A190008DFFD /* CustomerTableViewController.m */,
 				4332E8BA1D1988D30008DFFD /* ViewController.m */,
 				4332E8BC1D1988D30008DFFD /* Main.storyboard */,
 				4332E8BF1D1988D30008DFFD /* Assets.xcassets */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4332E8BB1D1988D30008DFFD /* ViewController.m in Sources */,
+				4332E8D21D198A190008DFFD /* CustomerTableViewController.m in Sources */,
 				4332E8B81D1988D30008DFFD /* AppDelegate.m in Sources */,
 				4332E8B51D1988D30008DFFD /* main.m in Sources */,
 			);
